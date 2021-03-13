@@ -1,0 +1,101 @@
+.CreateNewConfirmation-wrapper{
+    padding:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 18%;
+    margin-right: 2%;
+}
+.create-new-confirmation-section-one{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.create-new-confirmation-section-one-div-one h3{
+    margin-bottom: 8px;
+}
+.create-new-confirmation-section-one-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+.create-new-confirmation-section-one-div-two{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.site-detial-sub-div p{
+    margin-bottom: -8px;
+    color: gray;
+    font-size: 14px;
+}
+.site-detial-sub-div h3{
+    margin-top: 8px;
+}
+
+/*--secction-one--*/
+
+
+.create-new-confirmation-section-two{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.create-new-confirmation-section-two-div-one h3{
+         margin-bottom: 8px;
+}
+.create-new-confirmation-section-two-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+.invoice-for-purchase-table{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.invoice-for-purchase-tbody tr td{
+    padding-bottom: 15px;
+    border-bottom: none;
+}
+.invoice-for-purchase-tbody{
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.invoice-for-purchase-theading{
+    border-bottom: 1px solid lightgrey;
+}
+
+/*--invoice-table--*/
+.total-table{
+    width: 100%;
+    max-width: 34%;
+    margin-left: 63%;
+    margin-top: 20px;
+}
+.total-table th{
+       border-bottom: 1px solid lightgray;
+}
+.total-table td{
+    
+    border-bottom: 1px solid lightgray;
+}
+.full-total{
+    color: #28d094;
+}
+
+/*--section-two-withtables and total--*/
+
+.confirmation-bottom-btn{
+    text-align: left;
+}
+.confirmation-bottom-btn button{
+    width: 100%;
+    max-width: 15%;
+}
+.confirmation-bottom-btn-1{
+    background-color: #f5f7fa;
+    border:  1px solid rgb(173, 171, 171);
+    color: gray;
+}

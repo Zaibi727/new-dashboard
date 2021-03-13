@@ -1,0 +1,69 @@
+.create-new-billing-wrapper{
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 18%;
+    margin-right: 2%;
+}
+
+.create-new-billing-section-one{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.create-new-billing-div-one h3{
+    display: flex;
+    margin-bottom: 8px;
+}
+.create-new-billing-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+
+/*--div-one--*/
+.create-new-billing-div-two{
+    display: flex;
+}
+.create-new-billing-payment-method-box{
+    margin-right: 15px;
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    min-height: 170px;
+    text-align: center;
+    padding: 20px;
+    border:  1px solid lightgrey;
+}
+#paypal {
+    color: rgb(248, 248, 248);
+}
+#paypal-box{
+    background-color: lightslategray;
+}
+#paypal-btn{
+    background-color: white;
+    color: lightslategray;
+}
+.create-new-billing-payment-method-box button{
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    background-color: lightslategray;
+}
+.create-new-billing-payment-method-box  i{
+    color: dimgray;
+}
+/*--below-btnwithconfirmationbtns-collabration-*/
+.confirmation-bottom-btn{
+    text-align: left;
+}
+.confirmation-bottom-btn button{
+    width: 100%;
+    max-width: 15%;
+}
+.confirmation-bottom-btn-1{
+    background-color: #f5f7fa;
+    border:  1px solid rgb(173, 171, 171);
+    color: gray;
+}
