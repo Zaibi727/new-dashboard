@@ -1,0 +1,31 @@
+
+.createbuttonnav-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.createbuttonnav-ul li{
+    margin-right: 50px;
+   font-weight: 700;
+   color: lightslategray;
+   
+}
+.createbuttonnav-ul li a:hover{
+    color: black;
+    padding-bottom: 10px;
+   border-bottom: 2px solid #12c0a4;
+}
+.create-button-nav-number{
+    background-color: rgb(221, 218, 218);
+    width: 15px;
+    height: 15px;
+    padding: 5px 11px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.create-button-nav-number:hover{
+   background-color: gray;
+   color: white;
+}

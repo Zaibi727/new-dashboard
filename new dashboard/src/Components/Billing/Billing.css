@@ -1,0 +1,284 @@
+.Billing-wrapper{
+    padding: 40px 40px 40px 20px;
+    margin-left: 17%;
+    margin-right: 2%;
+    background-color: #f5f7fa;
+}
+.billing-section-one{
+    text-align: left;
+    padding: 20px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-height: 100%;
+    height: 100px;
+}
+.billing-section-one-div-one h3{
+    margin-bottom: 8px;
+}
+.billing-section-one-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+.billing-section-one-figure{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/*---section-one--*/
+.billing-section-two{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.billing-section-two-div-one h3{
+     margin-bottom: 8px;
+}
+.billing-section-two-div-one p{
+    margin-top: 8px;
+}
+.billing-section-two-div-two meter{
+     width: 100%;
+     max-width: 70%;
+     max-height: 100%;
+     height: 30px;
+     color: darkslategray;
+}
+.round input{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.billling-used{
+    margin-left: 30px;
+}
+/*--section-two--*/
+
+.billing-section-three{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.billing-section-three-div-whole h3{
+    margin-top: 8px;
+     margin-bottom: 8px;
+}
+.billing-alert-detial{
+    color: gray;
+}
+.biling-amount-input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dollar-sign{
+    background-color: rgb(233, 231, 231);
+    position: absolute;
+    border: 1px solid lightgray;
+    padding: 5px 9px;
+
+}
+.billing-alert-input{
+     padding: 8px;
+     padding-left: 50px;
+     border: 1px solid lightgray;
+     width: 100%;
+     max-width: 200px;
+}
+.billing-alerr-save-btn{
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    background-color:#737b7d;
+}
+
+/*---section-three of biling alerts--*/
+
+.billing-section-four-five-common{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.billing-section-four-five-common-div-one h3{
+    margin-bottom: 8px;
+}
+.billing-section-four-five-common-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+ /*--div-one--*/
+
+ .billing-section-four-five-common-div-two{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: 1fr 1fr;
+     border-bottom: 1px solid lightgray;
+     margin-bottom: 20px;
+ }
+ .billing-section-four-five-common-div-two p{
+     color: gray;
+     margin-bottom: 8px;
+     font-size: 14px;
+ }
+ .billing-section-four-five-common-div-two h3{
+    margin-top: 8px;
+}
+.edit-billing-address-btn{
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    border-radius: unset;
+    background-color: #737b7d;
+}
+.edit-tax-location-btn{
+    padding: 8px 22px;
+    border: none;
+    color: white;
+    border-radius: unset;
+    background-color: #737b7d;
+}
+/*--section-four-five-common-*/
+
+.billing-section-six{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.billing-section-six-div-one h3{
+    margin-bottom: 8px;
+}
+.billing-section-six-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+.billing-section-six-div-two label{
+    font-weight: 600;
+}
+.billing-section-six-div-two input{
+    border: 1px solid lightgray;
+    margin: 5px 0px 20px 0px;
+    padding: 8px;
+    width: 100%;
+    max-width: 70%;
+}
+.tax-id-check-mark{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.tax-id-check-mark i{
+    color: lightgray;
+}
+.billing-section-six-div-three input{
+    padding: 8px 36px;
+    border: none;
+    color: white;
+    border-radius: unset;
+    background-color:#737b7d;
+}
+
+/*--section-six--*/
+.billing-history-pdf{
+    color:#12c0a4;
+}
+
+/*--section-seven--*/
+
+.arrows-th{
+    display: flex;
+    align-items: center;
+}
+.arrows-th-a{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+.arrows-th-a1{
+    margin-bottom: -6px;
+}
+.arrows-th-a2{
+    margin-top: -6px;
+}
+#upgrade-plan-btn button{
+    color:#12c0a4;
+    border-color:#12c0a4;
+}
+
+
+/*--below about model edit adress section--*/
+
+
+.modal-edit-adress-section-wrapper{
+    width: 100%;
+    max-width: 50%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid lightgrey;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+.modal-edit-adress-section{
+     width: 100%;
+     max-width: 100%;
+    padding: 20px;
+     margin-right: auto;
+     box-sizing: border-box;
+}
+.modal-edit-adress-section-div-one h3{
+     margin-top: -8px;
+     margin-bottom: 8px;
+}
+.modal-edit-adress-section-div-one p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: gray;
+}
+.modal-edit-adress-section-form-divs{
+    margin-bottom: 5px;
+}
+.modal-edit-adress-section-form-divs lable{
+ font-weight: 600;
+ font-size: 14px;
+}
+.modal-edit-adress-section-form-divs input{
+    width: 100%;
+    max-width: 90%;
+    padding: 7px;
+    margin-top: 2px;
+    border: 1px solid lightgrey;
+   }
+   .modal-edit-adress-cancel-btn{
+       position: absolute;
+       background-color: transparent; 
+       right: -63px; 
+       top:-23px;
+   }
+   .modal-edit-adress-cancel-btn i{
+         color: rgb(0, 0, 0);
+         width: 10px;
+         height: 10px;
+         border-radius: 50%;
+   }
+   .modal-edit-adress-update-btn-div{
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 100%;
+        margin: 20px -20px -20px -20px;
+        text-align: left;
+        background-color:#dee2e6 !important;
+   }
+   #pop-up-update-btn{
+       text-align: left;
+       background-color: #12c0a4;
+       padding: 12px 14px;
+       color: white;
+       border:  none;
+   }
