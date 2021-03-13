@@ -1,0 +1,19 @@
+.teams-nav-bar-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.teams-nav-bar-ul li{
+    margin-right: 50px;
+   font-weight: 700;
+   color: lightslategray;
+}
+.teams-nav-bar-ul li a:hover{
+    color: black;
+    padding-bottom: 5px;
+   border-bottom: 2px solid green;
+}
+.teamnav-LINK{
+    text-decoration: none;
+}

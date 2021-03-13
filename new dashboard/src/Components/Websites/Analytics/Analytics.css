@@ -1,0 +1,74 @@
+.Analytics-wrapper{
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    margin-right: 2%;
+}
+.Analytics{
+background-color: white;
+text-align: left;
+padding: 20px;
+height: 440px;
+}
+.Analytics table{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.Analytics table p{
+    margin-top: 8px;
+}
+.jan{
+    height: 30px;
+    background-color: rgb(116, 121, 116);
+}
+.feb{
+    height: 90px;
+    background-color: rgb(76, 78, 76);
+}
+.mar{
+    height: 70px;
+    background-color: rgb(183, 185, 183);
+}
+.apr{
+    height: 30px;
+    background-color: rgb(181, 182, 181);
+}
+.may{
+    height: 60px;
+    background-color: rgb(83, 85, 83);
+}
+
+.jun{
+    height: 170px;
+    background-color: rgb(70, 71, 70);
+}
+.jul{
+    height: 50px;
+    background-color: rgb(169, 170, 169);
+}
+
+.aug{
+    height: 90px;
+    background-color: rgb(189, 190, 189);
+}
+.sep{
+    height: 180px;
+    background-color: rgb(70, 71, 70);
+}
+.oct{
+    height: 160px;
+    background-color: rgb(164, 165, 164);
+}
+.nov{
+    height: 90px;
+    background-color: rgb(164, 165, 164);
+}
+.dec{
+    height: 400px;
+    background-color: rgb(164, 165, 164);
+}
+
+
+    

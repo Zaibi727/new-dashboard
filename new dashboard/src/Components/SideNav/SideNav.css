@@ -1,0 +1,39 @@
+.SideNav{
+    max-width: 100%;
+    max-height: 100%;
+}
+.Link{
+    color: white;
+    text-decoration: none;
+}
+.side-nav-ul{
+   float: left;
+   background-color: #737b7d;
+   color: white;
+   margin-top: 0;
+   padding: 15px;
+   height: 2000px;
+}
+.h4{
+    list-style: none;
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 25px;
+   
+}
+ .li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    z-index: 10;
+    padding: 5px 7px 5px 13px;
+}
+.li a{
+    margin: 0px 10px;
+}
+.li:hover{
+    padding: 5px 7px 5px 13px;
+    border-radius: 5px;
+    background-color: rgb(119, 119, 118);
+}
+

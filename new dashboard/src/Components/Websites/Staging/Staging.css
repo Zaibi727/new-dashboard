@@ -1,0 +1,39 @@
+.staging-wrapper{
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    margin-right: 2%;
+}
+.staging{
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+}
+.staging-img{
+    width: 120px;
+}
+.staging-h3{
+    width: 100%;
+   max-width: 70%;
+   text-align: center;
+   margin: auto;
+}
+.staging-paragrap{
+   width: 100%;
+   max-width: 70%;
+   text-align: center;
+   margin: auto;
+   color: gray;
+}
+.staging-btn{
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   margin-top: 20px;
+   padding: 10px 12px;
+   background-color:#12c0a4;
+}
+.staging-btn i{
+    margin-right: 8px;
+}

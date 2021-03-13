@@ -1,0 +1,210 @@
+.security-wrapper{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 16%;
+    margin-right: 2%;
+}
+.security-section-one{
+    background-color: white;
+    padding: 30px;
+    text-align: left;
+}
+.security-section-one-div-one h3{
+    margin-top: 8px;
+        margin-bottom: 8px;
+}
+.security-section-one-div-one p{
+    margin-top: 8px;
+    color: gray;
+    font-size: 14px;
+}
+
+/*--security-section-one-div-one--*/
+
+.security-section-one-commone-div-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.security-section-one-commone-div-child{
+   display: flex;
+   align-items: center;
+}
+.security-section-one-commone-div-child i{
+    background-color: rgb(243, 241, 241);
+    padding: 20px;
+    margin-right: 20px;
+    color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.security-section-one-commone-div-sub-child h3{
+   margin-bottom: 8px;
+}
+.security-section-one-commone-div-sub-child p{
+    margin-top: 8px;
+    color: gray;
+    font-size: 14px;
+ }
+ .security-green-on{
+    color: #12c0a4;
+    margin-left: 2px;
+ }
+
+ /*--security-common-divs--*/
+
+ .security-edit-btn{
+     background-color: white;
+     color: darkslategray;
+     border: 1px solid rgb(122, 117, 117);
+     padding: 7px 20px;
+     border-radius: unset;
+     font-weight: 600;
+ }
+ .security-edit-btn:hover{
+    border-color: #12c0a4;
+    color: #12c0a4;
+ }
+
+ /*--common-divs-buttons--*/
+
+ .History{
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .History-heading h3{
+      margin-bottom: 8px;
+  }
+  .History-heading p{
+      margin-top: 8px;
+      color: gray;
+  }
+  .audit-log-table, th, td {
+    border-bottom: none;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 12px;
+  }
+  td {
+      font-size: 14px;
+      font-weight: 500;
+  }
+  th {
+    text-align: left;
+  }
+  .audit-log-table{
+      width: 100%;
+      max-width: 100%;
+  }
+  .audit-log-table tr{
+      border-bottom:  1px solid lightgrey;
+  }
+  
+
+  /*--below-about appauthentication QR code scanner setup--*/
+
+  .modal-app-autentication-section-wrapper{
+      width: 100%;
+      max-width: 50%;
+      margin: 10% auto;
+      text-align: left;
+      background-color: white;
+      border: 1px solid lightgray;
+  }
+  .modal-app-autentication-section-wrapper:hover{
+      border: 2px solid lightgray;
+  }
+  .modal-app-autentication-section{
+      padding: 20px;
+  }
+  .modal-app-autentication-section-div-one h3{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.modal-app-autentication-section-div-one p{
+    margin-top: 8px;
+    color: gray;
+    font-size: 14px;
+}
+.modal-app-autentication-section-div-two{
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.modal-app-autentication-section-div-two i{
+    font-size: 150px;
+}
+.modal-app-autentication-section-div-two h6{
+   margin-top: -8px;
+}
+.modal-app-autentication-section-div-three{
+    background-color: #dee2e6;
+    width: 100%;
+    max-width: 100%;
+    margin-left: -20px;
+    margin-right: auto;
+    margin-bottom: -20px;
+    padding: 10px 20px 10px 20px;
+}
+.modal-app-autentication-section-div-three button{
+    background-color: #12c0a4;
+   width: 100%;
+   max-width: 20%;
+
+}
+
+/*--below-can't scan QR code?--*/
+
+.modal-app-autentication-section-cant-scan{
+    padding: 20px;
+}
+.modal-app-autentication-section-cant-scan-div-one h2{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.modal-app-autentication-section-cant-scan-div-one p{
+    margin-top: 8px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.modal-app-autentication-section-cant-scan-div-two p{
+        color: #12c0a4 !important;
+        font-weight: 500;
+        margin-bottom: 50px;
+}
+/*--beow about try the authentication code now--*/
+
+.modal-app-autentication-section-code-now{
+    padding: 20px;
+}
+.modal-app-autentication-section-code-now-div-one h2{
+     margin-top: 8px;
+     margin-bottom: 8px;
+}
+.modal-app-autentication-section-code-now-div-one p{
+    margin-top: 8px;
+    color: gray;
+}
+.modal-app-autentication-section-code-now-div-three{
+   display: flex;
+   width: 100%;
+   max-width: 60%;
+   margin: 10px 0px 70px 0px;
+}
+.modal-app-autentication-section-code-now-div-three input{
+    width: 100%;
+    max-width: 70px;
+    height: 60px;
+    margin-right: 10px;
+    border:  1px solid lightgray;
+    font-size: 30px;
+ }

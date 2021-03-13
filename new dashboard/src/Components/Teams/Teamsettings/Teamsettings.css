@@ -1,0 +1,99 @@
+.teamsetting-wrapper{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16%;
+    margin-right: 2%;
+    
+}
+.teamsettings-section-one{
+    background-color: white;
+    padding: 40px;
+    text-align: left;
+    margin-top: 30px;
+}
+.teamsettings-section-one-div-one h3{
+      margin-top: 8px;
+      margin-bottom: 8px;
+}
+.teamsettings-section-one-div-one p{
+    margin-top: 8px;
+}
+.teamsettings-section-one-form{
+    width: 100%;
+    max-width: 90%;
+}
+.teamsetting-section-one-form-div-one input{
+    width: 100%;
+    max-width: 80%;
+    padding: 5px;
+    border:  1px solid lightgrey;
+}
+.teamsetting-section-one-form-div-two textarea{
+    width: 100%;
+    max-width: 80%;
+    height: 70px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border:  1px solid lightgrey;
+}
+.teamsetting-section-one-form-div-three input{
+    padding: 10px 14px;
+    border:  none;
+    color: white;
+    background-color: gray;
+}
+
+/*---section-one compeletion--*/
+
+.teamsetting-section-two{
+    background-color: white;
+    padding: 40px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.teamsetting-member-table tr{
+    border-bottom: 1px solid lightgrey;
+}
+.teamsetting-member-table, th, td {
+   border-bottom: none;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 12px;
+  }
+  td {
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .td{
+      display: flex;
+      align-items: center;
+      border-bottom:  none;
+  }
+  th {
+    text-align: left;
+  }
+  .teamsetting-member-table{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 40px;
+  }
+  .teamsetting-member-img{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border-bottom:  none;
+}
+
+/*---section-two-member-table--teamsetting--*/
+
+.teamsetting-tablebottom-btn{
+    text-align: center !important;
+}
+.teamsetting-tablebottom-btn button{
+    width: 100%;
+    max-width: 30%;
+}
